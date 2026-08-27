@@ -34,7 +34,7 @@ const OfficeLayout: React.FC = () => {
 export const App: React.FC = () => {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/gruas-app">
         <Routes>
           {/* Public Login Route */}
           <Route path="/login" element={<LoginPage />} />

@@ -8,4 +8,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  // Base path para GitHub Pages: https://sbo24.github.io/gruas-app/
+  base: '/gruas-app/',
 })
